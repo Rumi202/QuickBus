@@ -1,0 +1,273 @@
+/* QuickBus - Consistent, modern dark theme */
+
+/* Base */
+body {
+    background: #181a1b;
+    color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #00cfff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+    a:hover {
+        color: #48c774;
+    }
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.section {
+    padding: 2rem 0;
+}
+
+.box {
+    background: #23272a;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+}
+
+.title, .subtitle {
+    color: #00cfff;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+h2, h3, h4 {
+    margin-top: 0;
+}
+
+.notification {
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+    .notification.is-danger {
+        background: #ff3860;
+        color: #fff;
+    }
+
+    .notification.is-warning {
+        background: #ffdd57;
+        color: #363636;
+    }
+
+    .notification.is-success {
+        background: #48c774;
+        color: #181a1b;
+    }
+
+/* Table */
+.table {
+    width: 100%;
+    background: #23272a;
+    color: #f5f5f5;
+    border-radius: 8px;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    margin-bottom: 0;
+}
+
+    .table th, .table td {
+        padding: 0.75rem 1rem;
+        vertical-align: middle;
+    }
+
+    .table thead th {
+        background: #181a1b;
+        color: #00cfff;
+        border-bottom: 2px solid #00cfff;
+    }
+
+    .table tbody tr:hover {
+        background: #1a3d1a !important;
+    }
+
+    .table.is-striped tbody tr:nth-child(odd) {
+        background: #202225;
+    }
+
+/* Buttons */
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.button {
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin: 0;
+    outline: none;
+}
+
+    .button:focus {
+        outline: 2px solid #00cfff;
+    }
+
+    .button.is-login, .button.is-register {
+        background: #00cfff;
+        color: #181a1b;
+    }
+
+        .button.is-login:hover, .button.is-register:hover {
+            background: #1a3d1a;
+            color: #fff;
+        }
+
+    .button.is-green, .button.is-success {
+        background: #48c774;
+        color: #181a1b;
+    }
+
+        .button.is-green:hover, .button.is-success:hover {
+            background: #1a3d1a;
+            color: #fff;
+        }
+
+    .button.is-logout, .button.is-danger {
+        background: #ff3860;
+        color: #fff;
+    }
+
+        .button.is-logout:hover, .button.is-danger:hover {
+            background: #ff1a3c;
+            color: #fff;
+        }
+
+    .button.is-info {
+        background: #00cfff;
+        color: #181a1b;
+    }
+
+        .button.is-info:hover {
+            background: #1a3d1a;
+            color: #fff;
+        }
+
+    .button.is-small {
+        font-size: 0.9rem;
+        padding: 0.35rem 1rem;
+    }
+
+/* Inputs */
+.input, .select select {
+    background: #23272a;
+    border: 1px solid #444;
+    color: #eee;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+    .input:focus, .select select:focus {
+        border-color: #00cfff;
+        box-shadow: 0 0 5px #00cfff;
+        outline: none;
+    }
+
+/* Seat Layout */
+.bus-layout {
+    margin-top: 1rem;
+    user-select: none;
+}
+
+.seat-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.seat-label {
+    display: flex;
+    align-items: center;
+    margin: 0 4px;
+}
+
+.seat {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin: 0 4px;
+    user-select: none;
+    border: 2px solid #444;
+    transition: background 0.2s, color 0.2s;
+}
+
+.seat-available {
+    background: #fff;
+    color: #181a1b;
+}
+
+.seat-selected {
+    background: #ff3860;
+    color: #fff;
+}
+
+.seat-booked {
+    background: #48c774;
+    color: #181a1b;
+}
+
+.seat-gap {
+    width: 16px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .container {
+        max-width: 98vw;
+    }
+
+    .box {
+        padding: 1rem;
+    }
+
+    .section {
+        padding: 1rem 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .button-group {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .box {
+        padding: 0.5rem;
+    }
+
+    .table th, .table td {
+        padding: 0.5rem;
+    }
+}

@@ -1,0 +1,23 @@
+﻿@model List<QuickBus.Models.Counter>
+@{
+    ViewData["Title"] = "Counters";
+    Layout = "_Layout";
+}
+<h2 class="title">Counters</h2>
+<div class="box">
+    <form method="post" asp-action="AddCounter" style="display:flex; gap:1rem; margin-bottom:1.5rem;">
+        <input name="name" placeholder="New Counter Name" class="input" required style="max-width:250px;" />
+        <button type="submit" class="button is-green">Add</button>
+    </form>
+    <table class="table is-striped">
+        <thead>
+            <tr><th>#</th><th>Name</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model)
+            {
+                <tr><td>@c.Id</td><td>@c.Name</td></tr>
+            }
+        </tbody>
+    </table>
+</div>

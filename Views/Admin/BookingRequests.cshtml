@@ -1,0 +1,54 @@
+﻿@model List<QuickBus.Models.BookingRequest>
+@{
+    ViewData["Title"] = "Booking Requests";
+    Layout = "_Layout";
+}
+<h2 class="title">Pending Booking Requests</h2>
+<div class="box">
+    <table class="table is-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Passenger</th>
+                <th>Bus No</th>
+                <th>Date</th>
+                <th>Start</th>
+                <th>End</th>
+                <th>Seats</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var r in Model)
+            {
+                <tr>
+                    <td>@r.Id</td>
+                    <td>@r.Passenger?.Username</td>
+                    <td>@r.Journey?.BusNo</td>
+                    <td>@r.Journey?.JourneyDate.ToShortDateString()</td>
+                    <td>@r.Journey?.StartCounter?.Name</td>
+                    <td>@r.Journey?.EndCounter?.Name</td>
+                    <td>@r.SeatNumbers</td>
+                    <td>@r.Status</td>
+                    <td>
+                        <div class="button-group">
+                            <a asp-action="BookingDetails" asp-route-id="@r.Id" class="button is-info is-small">View</a>
+                            @if (r.Status == "Pending")
+                            {
+                                <form method="post" asp-action="Approve" style="display:inline;">
+                                    <input type="hidden" name="id" value="@r.Id" />
+                                    <button type="submit" class="button is-green is-small">Approve</button>
+                                </form>
+                                <form method="post" asp-action="Reject" style="display:inline;">
+                                    <input type="hidden" name="id" value="@r.Id" />
+                                    <button type="submit" class="button is-danger is-small">Reject</button>
+                                </form>
+                            }
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Register";
+    Layout = "_Layout";
+}
+<div class="box" style="max-width:400px; margin:2rem auto;">
+    <h2 class="title" style="text-align:center;">Register</h2>
+    <form method="post">
+        <input name="username" class="input" placeholder="Choose a username" required />
+        <input name="password" type="password" class="input" placeholder="Create a password" required />
+        <div class="button-group">
+            <button type="submit" class="button is-register">Register</button>
+        </div>
+        @if (ViewBag.Error != null)
+        {
+            <div class="notification is-danger">@ViewBag.Error</div>
+        }
+    </form>
+</div>

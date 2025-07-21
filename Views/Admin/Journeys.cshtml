@@ -1,0 +1,94 @@
+﻿@model List<QuickBus.Models.Journey>
+@{
+    ViewData["Title"] = "Journeys";
+    var counters = ViewBag.Counters as List<QuickBus.Models.Counter>;
+    Layout = "_Layout";
+}
+@section Scripts {
+    <script>
+        function validateJourneyForm() {
+            var start = document.getElementById('startCounterId').value;
+            var end = document.getElementById('endCounterId').value;
+            var date = document.querySelector('input[name="journeyDate"]').value;
+            var time = document.querySelector('input[name="time"]').value;
+            var error = document.getElementById('journeyError');
+            var now = new Date();
+            var selected = new Date(date + 'T' + time);
+
+            if (start && end && start === end) {
+                error.textContent = "Start and End Counter cannot be the same.";
+                error.style.display = "block";
+                return false;
+            }
+            if (date && time && selected < now) {
+                error.textContent = "Journey date and time cannot be in the past.";
+                error.style.display = "block";
+                return false;
+            }
+            error.style.display = "none";
+            return true;
+        }
+    </script>
+}
+<h2 class="title">Journeys</h2>
+<div class="box">
+    <form method="post" asp-action="AddJourney" onsubmit="return validateJourneyForm();">
+        <div style="display:flex; flex-wrap:wrap; gap:1rem;">
+            <input name="busNo" placeholder="Bus No" class="input" required style="max-width:120px;" />
+            <input name="journeyDate" type="date" class="input" min="@DateTime.Now.ToString("yyyy-MM-dd")" required style="max-width:140px;" />
+            <input name="time" type="time" class="input" required style="max-width:120px;" />
+            <input name="rows" type="number" min="1" placeholder="Rows" class="input" required style="max-width:90px;" />
+            <select name="startCounterId" id="startCounterId" class="input" required style="max-width:160px;">
+                <option value="">Start Counter</option>
+                @foreach (var c in counters)
+                {
+                    <option value="@c.Id">@c.Name</option>
+                }
+            </select>
+            <select name="endCounterId" id="endCounterId" class="input" required style="max-width:160px;">
+                <option value="">End Counter</option>
+                @foreach (var c in counters)
+                {
+                    <option value="@c.Id">@c.Name</option>
+                }
+            </select>
+            <button type="submit" class="button is-green">Add</button>
+        </div>
+        <p id="journeyError" class="notification is-danger" style="display:none; margin-top:1rem;"></p>
+    </form>
+</div>
+<div class="box">
+    <table class="table is-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Bus No</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Rows</th>
+                <th>Start</th>
+                <th>End</th>
+                <th>Booked Seats</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var j in Model)
+            {
+                <tr>
+                    <td>@j.Id</td>
+                    <td>@j.BusNo</td>
+                    <td>@j.JourneyDate.ToShortDateString()</td>
+                    <td>@j.Time</td>
+                    <td>@j.Rows</td>
+                    <td>@j.StartCounter?.Name</td>
+                    <td>@j.EndCounter?.Name</td>
+                    <td>
+                        <div class="button-group">
+                            <a asp-action="BookingDetails" asp-controller="Admin" asp-route-id="@j.Id" class="button is-info is-small">View Booked Seats</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,53 @@
+﻿@{
+    var journey = (QuickBus.Models.Journey)ViewBag.Journey;
+    var bookedSeats = (List<string>)ViewBag.BookedSeats;
+    ViewData["Title"] = "Select Seats";
+    Layout = "_Layout";
+}
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll('.seat-checkbox').forEach(function (cb) {
+                cb.addEventListener('change', function () {
+                    var seatSpan = this.nextElementSibling;
+                    if (this.checked) {
+                        seatSpan.classList.add('seat-selected');
+                    } else {
+                        seatSpan.classList.remove('seat-selected');
+                    }
+                });
+            });
+        });
+    </script>
+}
+<h2 class="title">Select Seats for @journey.BusNo (@journey.JourneyDate.ToShortDateString())</h2>
+@if (TempData["Error"] != null)
+{
+    <div class="notification is-danger">@TempData["Error"]</div>
+}
+<form method="post" asp-route-journeyId="@journey.Id">
+    <input type="hidden" name="journeyId" value="@journey.Id" />
+    <div class="bus-layout">
+        @for (int i = 0; i < journey.Rows; i++)
+        {
+            <div class="seat-row">
+                @for (int j = 1; j <= 4; j++)
+                {
+                    var seatNo = $"{(char)('a' + i)}{j}";
+                    var isBooked = bookedSeats.Contains(seatNo);
+                    <label class="seat-label" style="cursor:@(isBooked ? "not-allowed" : "pointer");">
+                        <input type="checkbox" name="selectedSeats" value="@seatNo" @(isBooked ? "disabled" : "") class="seat-checkbox" />
+                        <span class="seat seat-available @(isBooked ? "seat-booked" : "")">@seatNo</span>
+                    </label>
+                    @if (j == 2)
+                    {
+                        <span class="seat-gap"></span>
+                    }
+                }
+            </div>
+        }
+    </div>
+    <div class="button-group">
+        <button type="submit" class="button is-info">Request Booking</button>
+    </div>
+</form>

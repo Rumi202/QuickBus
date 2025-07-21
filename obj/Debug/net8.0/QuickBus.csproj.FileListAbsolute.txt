@@ -1,0 +1,235 @@
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.csproj.AssemblyReference.cache
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.GeneratedMSBuildEditorConfig.editorconfig
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.AssemblyInfoInputs.cache
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.AssemblyInfo.cs
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.csproj.CoreCompileInputs.cache
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.MvcApplicationPartsAssemblyInfo.cache
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.RazorAssemblyInfo.cache
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.RazorAssemblyInfo.cs
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\appsettings.Development.json
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\appsettings.json
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.staticwebassets.runtime.json
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.staticwebassets.endpoints.json
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.exe
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.deps.json
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.runtimeconfig.json
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.dll
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.pdb
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+E:\LastAttempt\QuickBus\QuickBus\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\scopedcss\bundle\QuickBus.styles.css
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\scopedcss\projectbundle\QuickBus.bundle.scp.css
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.build.json
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.development.json
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.QuickBus.Microsoft.AspNetCore.StaticWebAssets.props
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.QuickBus.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.build.QuickBus.props
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuickBus.props
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuickBus.props
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.pack.json
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.csproj.Up2Date
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.dll
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\refint\QuickBus.dll
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.pdb
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.genruntimeconfig.cache
+E:\LastAttempt\QuickBus\QuickBus\obj\Debug\net8.0\ref\QuickBus.dll
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\appsettings.Development.json
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\appsettings.json
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.staticwebassets.runtime.json
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.staticwebassets.endpoints.json
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.exe
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.deps.json
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.runtimeconfig.json
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.dll
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.pdb
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.csproj.AssemblyReference.cache
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.GeneratedMSBuildEditorConfig.editorconfig
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.AssemblyInfoInputs.cache
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.AssemblyInfo.cs
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.csproj.CoreCompileInputs.cache
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.MvcApplicationPartsAssemblyInfo.cache
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.RazorAssemblyInfo.cache
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.RazorAssemblyInfo.cs
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\scopedcss\bundle\QuickBus.styles.css
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\scopedcss\projectbundle\QuickBus.bundle.scp.css
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.build.json
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.development.json
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.QuickBus.Microsoft.AspNetCore.StaticWebAssets.props
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.QuickBus.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.build.QuickBus.props
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuickBus.props
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuickBus.props
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.pack.json
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.csproj.Up2Date
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.dll
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\refint\QuickBus.dll
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.pdb
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.genruntimeconfig.cache
+H:\New folder (2)\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\ref\QuickBus.dll
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\appsettings.json
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.staticwebassets.runtime.json
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.staticwebassets.endpoints.json
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.exe
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.deps.json
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.runtimeconfig.json
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.dll
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.pdb
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.csproj.AssemblyReference.cache
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.AssemblyInfoInputs.cache
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.AssemblyInfo.cs
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.RazorAssemblyInfo.cache
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.RazorAssemblyInfo.cs
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\scopedcss\bundle\QuickBus.styles.css
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\scopedcss\projectbundle\QuickBus.bundle.scp.css
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.QuickBus.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.QuickBus.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.build.QuickBus.props
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuickBus.props
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuickBus.props
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.csproj.Up2Date
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.dll
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\refint\QuickBus.dll
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.pdb
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.genruntimeconfig.cache
+C:\Users\HP\Downloads\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\ref\QuickBus.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\appsettings.Development.json
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\appsettings.json
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.staticwebassets.runtime.json
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.staticwebassets.endpoints.json
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.exe
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.deps.json
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.runtimeconfig.json
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\QuickBus.pdb
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Azure.Core.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Azure.Identity.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\System.ClientModel.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\System.Memory.Data.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.csproj.AssemblyReference.cache
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.GeneratedMSBuildEditorConfig.editorconfig
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.AssemblyInfoInputs.cache
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.AssemblyInfo.cs
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.csproj.CoreCompileInputs.cache
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.MvcApplicationPartsAssemblyInfo.cache
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.RazorAssemblyInfo.cache
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.RazorAssemblyInfo.cs
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\scopedcss\bundle\QuickBus.styles.css
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\scopedcss\projectbundle\QuickBus.bundle.scp.css
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.build.json
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.development.json
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.QuickBus.Microsoft.AspNetCore.StaticWebAssets.props
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.QuickBus.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.build.QuickBus.props
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuickBus.props
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuickBus.props
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.pack.json
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.csproj.Up2Date
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.dll
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\refint\QuickBus.dll
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.pdb
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\QuickBus.genruntimeconfig.cache
+E:\final project\QuickBus\QuickBus\QuickBus\obj\Debug\net8.0\ref\QuickBus.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\System.Formats.Asn1.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\System.IO.Pipelines.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\System.Text.Json.dll
+E:\final project\QuickBus\QuickBus\QuickBus\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll

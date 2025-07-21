@@ -1,0 +1,25 @@
+﻿@model List<QuickBus.Models.User>
+@{
+    ViewData["Title"] = "Passengers";
+    Layout = "_Layout";
+}
+<h2 class="title">Passengers</h2>
+<div class="box">
+    <table class="table is-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Username</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in Model)
+            {
+                <tr>
+                    <td>@p.Id</td>
+                    <td>@p.Username</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

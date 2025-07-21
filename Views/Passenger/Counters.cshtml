@@ -1,0 +1,25 @@
+﻿@model List<QuickBus.Models.Counter>
+@{
+    ViewData["Title"] = "Counters";
+    Layout = "_Layout";
+}
+<h2 class="title">Counters</h2>
+<div class="box">
+    <table class="table is-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model)
+            {
+                <tr>
+                    <td>@c.Id</td>
+                    <td>@c.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,50 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    var userId = HttpContextAccessor.HttpContext?.Session.GetInt32("UserId");
+    var userRole = HttpContextAccessor.HttpContext?.Session.GetString("UserRole");
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewData["Title"] - QuickBus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+    <nav class="navbar" style="background:#181a1b; padding: 0.5rem 0;">
+        <div class="container" style="display:flex; align-items:center; justify-content:space-between;">
+            <a class="navbar-item" href="/" style="color:#00cfff; font-weight:700; font-size:1.3rem;">QuickBus</a>
+            <div style="display:flex; align-items:center; gap:1rem;">
+                <a href="/Home/About" class="navbar-item" style="color:#00cfff;">About</a>
+                @if (userId == null)
+                {
+                    <a href="/Account/Login" class="button is-login is-small">Login</a>
+                    <a href="/Account/Register" class="button is-register is-small">Register</a>
+                }
+                else
+                {
+                    <a href="/@(userRole == "Admin" ? "Admin" : "Passenger")/Dashboard" class="button is-green is-small">Dashboard</a>
+                    <form method="post" action="/Account/Logout" style="display:inline;">
+                        <button type="submit" class="button is-logout is-small">Logout</button>
+                    </form>
+                }
+            </div>
+        </div>
+    </nav>
+    <section class="section">
+        <div class="container">
+            @if (TempData["Error"] != null)
+            {
+                <div class="notification is-danger">@TempData["Error"]</div>
+            }
+            @RenderBody()
+        </div>
+    </section>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

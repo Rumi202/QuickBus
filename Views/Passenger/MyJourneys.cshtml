@@ -1,0 +1,41 @@
+﻿@model List<QuickBus.Models.BookingRequest>
+@{
+    ViewData["Title"] = "My Bookings";
+    Layout = "_Layout";
+}
+<h2 class="title">My Bookings</h2>
+<div class="box">
+    <table class="table is-striped">
+        <thead>
+            <tr>
+                <th>Bus No</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>From</th>
+                <th>To</th>
+                <th>Seats</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var b in Model)
+            {
+                <tr>
+                    <td>@b.Journey?.BusNo</td>
+                    <td>@b.Journey?.JourneyDate.ToShortDateString()</td>
+                    <td>@b.Journey?.Time</td>
+                    <td>@b.Journey?.StartCounter?.Name</td>
+                    <td>@b.Journey?.EndCounter?.Name</td>
+                    <td>@b.SeatNumbers</td>
+                    <td>@b.Status</td>
+                    <td>
+                        <div class="button-group">
+                            <a asp-action="BookingDetails" asp-route-id="@b.Id" class="button is-info is-small">Details</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

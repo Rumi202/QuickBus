@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "_Layout";
+}
+<h2 class="title">Admin Dashboard</h2>
+<div class="box" style="display:flex; flex-wrap:wrap; gap:2rem; justify-content:center;">
+    <div style="flex:1 1 220px; min-width:220px;">
+        <div class="box">
+            <h3 class="subtitle">Counters</h3>
+            <p class="is-size-4" style="font-size:2rem;">@ViewBag.CounterCount</p>
+            <div class="button-group">
+                <a href="/Admin/Counters" class="button is-green">More</a>
+            </div>
+        </div>
+    </div>
+    <div style="flex:1 1 220px; min-width:220px;">
+        <div class="box">
+            <h3 class="subtitle">Passengers</h3>
+            <p class="is-size-4" style="font-size:2rem;">@ViewBag.PassengerCount</p>
+            <div class="button-group">
+                <a href="/Admin/Passengers" class="button is-green">More</a>
+            </div>
+        </div>
+    </div>
+    <div style="flex:1 1 220px; min-width:220px;">
+        <div class="box">
+            <h3 class="subtitle">Journeys</h3>
+            <p class="is-size-4" style="font-size:2rem;">@ViewBag.JourneyCount</p>
+            <div class="button-group">
+                <a href="/Admin/Journeys" class="button is-green">More</a>
+            </div>
+        </div>
+    </div>
+    <div style="flex:1 1 220px; min-width:220px;">
+        <div class="box">
+            <h3 class="subtitle">Booking Requests</h3>
+            <p class="is-size-4" style="font-size:2rem;">@ViewBag.PendingBookingCount</p>
+            <div class="button-group">
+                <a href="/Admin/BookingRequests" class="button is-green">More</a>
+            </div>
+        </div>
+    </div>
+</div>

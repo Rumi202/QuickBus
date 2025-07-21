@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = "_Layout";
+}
+<div class="box" style="max-width:400px; margin:2rem auto;">
+    <h2 class="title" style="text-align:center;">Login</h2>
+    <form method="post">
+        <input name="username" class="input" placeholder="Username" required />
+        <input name="password" type="password" class="input" placeholder="Password" required />
+        <div class="button-group">
+            <button type="submit" class="button is-login">Login</button>
+        </div>
+        @if (ViewBag.Error != null)
+        {
+            <div class="notification is-danger">@ViewBag.Error</div>
+        }
+    </form>
+</div>

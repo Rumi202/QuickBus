@@ -1,0 +1,39 @@
+﻿@model List<QuickBus.Models.Journey>
+@{
+    ViewData["Title"] = "Journeys";
+    Layout = "_Layout";
+}
+<h2 class="title">Journeys</h2>
+<div class="box">
+    <table class="table is-striped">
+        <thead>
+            <tr>
+                <th>Bus No</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>From</th>
+                <th>To</th>
+                <th>Rows</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var j in Model)
+            {
+                <tr>
+                    <td>@j.BusNo</td>
+                    <td>@j.JourneyDate.ToShortDateString()</td>
+                    <td>@j.Time</td>
+                    <td>@j.StartCounter?.Name</td>
+                    <td>@j.EndCounter?.Name</td>
+                    <td>@j.Rows</td>
+                    <td>
+                        <div class="button-group">
+                            <a asp-action="Book" asp-route-journeyId="@j.Id" class="button is-info is-small">Book</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

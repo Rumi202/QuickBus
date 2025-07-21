@@ -1,0 +1,53 @@
+﻿@model QuickBus.Models.BookingRequest
+@{
+    ViewData["Title"] = "Booking Details";
+    Layout = "_Layout";
+    var journey = Model.Journey;
+    var seats = journey?.Seats ?? new List<QuickBus.Models.Seat>();
+    var selectedSeats = Model.SeatNumbers?.Split(',', System.StringSplitOptions.RemoveEmptyEntries | System.StringSplitOptions.TrimEntries) ?? new string[0];
+}
+<h2 class="title">Booking Details</h2>
+<div class="box">
+    <p><strong>Bus No:</strong> @journey?.BusNo</p>
+    <p><strong>Date:</strong> @journey?.JourneyDate.ToShortDateString()</p>
+    <p><strong>Time:</strong> @journey?.Time</p>
+    <p><strong>Status:</strong> @Model.Status</p>
+</div>
+<h4 class="subtitle">Seat Layout</h4>
+<div class="bus-layout">
+    @for (int i = 0; i < journey.Rows; i++)
+    {
+        <div class="seat-row">
+            @for (int j = 1; j <= 4; j++)
+            {
+                var seatNo = $"{(char)('a' + i)}{j}";
+                var isMine = selectedSeats.Contains(seatNo);
+                var seat = seats.FirstOrDefault(s => s.SeatNumber == seatNo);
+                var isBooked = seat?.BookingRequestId != null;
+                <span class="seat @(isMine ? "seat-selected" : isBooked ? "seat-booked" : "seat-available")">@seatNo</span>
+                @if (j == 2)
+                {
+                    <span class="seat-gap"></span>
+                }
+            }
+        </div>
+    }
+</div>
+@if (Model.Status == "Approved")
+{
+    <div class="notification is-success mt-3">
+        Your seats have been approved and allocated.
+    </div>
+}
+else if (Model.Status == "Pending")
+{
+    <div class="notification is-warning mt-3">
+        Your booking is pending approval.
+    </div>
+}
+else if (Model.Status == "Rejected")
+{
+    <div class="notification is-danger mt-3">
+        Your booking was rejected.
+    </div>
+}

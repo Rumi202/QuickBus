@@ -1,0 +1,57 @@
+﻿@model QuickBus.Models.BookingRequest
+@{
+    ViewData["Title"] = "Booking Details";
+    Layout = "_Layout";
+    var journey = Model.Journey;
+    var seats = journey?.Seats ?? new List<QuickBus.Models.Seat>();
+    var seatBookings = seats
+        .Where(s => s.BookingRequestId != null)
+        .GroupBy(s => s.BookingRequestId)
+        .ToDictionary(g => g.Key, g => g.ToList());
+}
+<h2 class="title">Booking Details</h2>
+<div class="box">
+    <p><strong>Passenger:</strong> @Model.Passenger?.Username</p>
+    <p><strong>Bus No:</strong> @journey?.BusNo</p>
+    <p><strong>Date:</strong> @journey?.JourneyDate.ToShortDateString()</p>
+    <p><strong>Time:</strong> @journey?.Time</p>
+    <p><strong>Status:</strong> @Model.Status</p>
+</div>
+<h4 class="subtitle">Seat Layout</h4>
+<div class="bus-layout">
+    @for (int i = 0; i < journey.Rows; i++)
+    {
+        <div class="seat-row">
+            @for (int j = 1; j <= 4; j++)
+            {
+                var seatNo = $"{(char)('a' + i)}{j}";
+                var seat = seats.FirstOrDefault(s => s.SeatNumber == seatNo);
+                var isBooked = seat?.BookingRequestId != null;
+                var isApproved = seat?.BookingRequest?.Status == "Approved";
+                var passenger = seat?.BookingRequest?.Passenger?.Username;
+                <span class="seat @(isApproved ? "seat-booked" : isBooked ? "seat-selected" : "seat-available")"
+                      title="@(isBooked ? $"Booked by: {passenger}" : "Available")">
+                    @seatNo
+                </span>
+                @if (j == 2)
+                {
+                    <span class="seat-gap"></span>
+                }
+            }
+        </div>
+    }
+</div>
+<h5 class="subtitle" style="margin-top:2rem;">Booking Summary</h5>
+<ul>
+    @foreach (var booking in seatBookings)
+    {
+        var bookingRequest = seats.FirstOrDefault(s => s.BookingRequestId == booking.Key)?.BookingRequest;
+        if (bookingRequest?.Passenger != null)
+        {
+            <li>
+                <strong>@bookingRequest.Passenger.Username</strong> booked
+                @string.Join(", ", booking.Value.Select(s => s.SeatNumber))
+            </li>
+        }
+    }
+</ul>
